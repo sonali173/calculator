@@ -11,7 +11,7 @@ body {
     justify-content: center;
     /* horizontali align*/
     align-items: center;
-    background-image: url("/img/contact-image.webp");
+    background-image: url("../img/contact-image.webp");
     background-size: cover;
 
 }
