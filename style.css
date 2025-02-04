@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    /* horizontali align*/
+    align-items: center;
+    background-image: url("/img/contact-image.webp");
+    background-size: cover;
+
+}
+
+.cantainer {
+    border: 1px solid #717377;
+    padding: 20px;
+    border-radius: 16px;
+    background: #5f5e5e;
+    box-shadow: 1px 5px 16px;
+    flex-grow: 0;
+    max-width: none;
+    
+    /* background: transparent; */
+}
+
+
+input {
+    width: 310px;
+    border: none;
+    height: 90px;
+    padding: 24px;
+    margin: 10px;
+    box-shadow: 0px -3px 15px black;
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    border-radius: 5px;
+    /* background: #5f5e5e; */
+    margin-bottom: 20px;
+
+}
+
+/* input::placeholder{ */
+/* color: black; */
+
+button {
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    box-shadow: -8px -8px 15px black;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.equalBtn {
+    color: rgb(0, 255, 94);
+    font-size: 25px;
+    /* box-shadow: -5px -3px 3px 3px   rgb(79, 32, 0); */
+
+}
+
+button:hover {
+    color: rgb(0, 255, 94);
+    box-shadow: -6px -6px 10px rgb(0, 255, 94);
+    /* box-shadow: -6px -6px 15px red; */
+
+}
+
+
+
+@media (max-width:990px) {
+    .cantainer{
+        max-height: 90vh;
+        flex-grow: 0;
+        /* max-width: none; */
+    }
+    .first, .second, .third, .fourth, .fifth{
+        display: flex;
+        
+        
+}
+}
